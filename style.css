@@ -1,0 +1,445 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap");
+    /* font-family: 'Cormorant', serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
+    /* font-family: 'Rock Salt', cursive; */
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+    /* font-family: 'DM Serif Display', serif; */
+
+@import url("https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap");
+    /* font-family: 'Mr Dafoe', cursive; */
+
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap");
+    /* font-family: 'Mulish', sans-serif; */
+    /* for any simple grey paragraph text */
+
+@import url("https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap");
+
+    html, body, div, span, applet, object, iframe,  
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+    a, abbr, acronym, address, big, cite, code,  
+    del, dfn, em, img, ins, kbd, q, s, samp,  
+    small, strike, strong, sub, sup, tt, var,  
+    b, u, i, center,  
+    dl, dt, dd, ol, ul, li,  
+    fieldset, form, label, legend,  
+    table, caption, tbody, tfoot, thead, tr, th, td,  
+    article, aside, canvas, details, embed,  
+    figure, figcaption, footer, header, hgroup,  
+    menu, nav, output, ruby, section, summary,  
+    time, mark, audio, video {  
+    margin: 0;  
+    padding: 0;   
+    vertical-align: baseline;  
+    }
+
+    * {
+        width: 100%;
+        /*border: 1px solid grey;*/
+    }
+
+    header {
+        width: 100%;
+        font-family: 'Mulish', sans-serif;
+        font-weight: bolder;
+        font-size: 1.4rem;
+        padding: 2% 0;
+        position: fixed;
+        z-index: 100;
+        background-color: white;
+        opacity: 98%;
+    }
+
+    .top {
+        display: flex;
+    }
+
+    .reddot {
+        width: 40%;
+        margin: 1% 3%
+    }
+
+    .reddot img {
+        width: 20%;
+    }
+
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        margin: auto 0% auto 35%;
+        
+
+    }
+
+    .navbar nav a {
+        margin: auto 1% auto 11%;
+        text-decoration: none;
+        color: black;
+    }
+
+    .login {
+        width: 25%;
+        padding-left: 4%;
+        text-decoration: none;
+        color: black;
+        border-left: 4px solid #495057;
+        border-radius: 2px;
+    }
+
+    .container1 {
+        width: 98.9%;
+        padding-top: 5%;
+    }
+
+   
+    .img1 {
+        width: 100%;
+        position: absolute;
+        background-image: url("expat-images/1.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 90vh;
+    }
+
+    .container1 h1 {
+        width: 70%;
+        font-size: 4.4rem;
+        font-family: 'Cabin Sketch', cursive;
+        position: relative;
+        color: white;
+        padding: 3% 2%;
+        z-index: 1;
+        
+        top: 700;
+        left: 50;
+        
+        
+        
+    }
+
+    .container1 h2 {
+        width: 35%;
+        font-size: 17px;
+        font-family: 'Cabin Sketch', cursive;
+        position: relative;
+        color: white;
+        margin: 230px 55px;
+        z-index: 1;
+        top: 445;
+        left: 13;
+        text-align: center;
+       
+       
+    }
+
+    .container2 {
+        margin-top: 55%;
+        width: 100%;
+    }
+
+    .container2 h5 {
+        width: 50%;
+        font-size: 2rem;
+        font-family: 'Mulish', sans-serif;
+        margin: 3% 5%;
+    }
+
+    .container2 p {
+        width: 80%;
+        font-size: 1.5rem;
+        font-family: 'Mulish', sans-serif;
+        margin: 12% auto;
+    }
+
+    .intropars {
+        width: 75%;
+        margin: 10% auto;
+        display: flex;
+        justify-content: space-around;
+        text-align: justify;
+    }
+
+    .container3 {
+        margin-bottom: 60%;
+    }
+
+    .container3 h2 {
+        width: 30%;
+        position: relative;
+        font-size: 3.5rem;
+        color: white;
+        top: 230;
+        padding-left: 4%;
+        z-index: 1;
+        font-family: 'DM Serif Display', serif;
+        text-align: center;
+    }
+
+    span {
+        font-family: 'Mr Dafoe', cursive;
+        font-size: 2.5rem;
+        border-bottom: 2px solid white;
+    }
+
+    .container3 video {
+        position: absolute;
+        width: 100%;
+    }
+
+    .container4 {
+        width: 100%;
+        display: flex;
+    }
+
+    .container4 h5 {
+        width: 32%;
+        font-size: 1.3rem;
+        margin: 10% 6%;
+        padding: 10% 0;
+        text-align: center;
+        font-family: 'Mulish', sans-serif;
+    }
+
+    .bkimg {
+        background-image: url("expat-images/19.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 60vh;
+        width: 35%;
+        margin-left: 60%;
+        margin-top: -55%;
+        margin-bottom: 10%;
+        position: relative;
+        z-index: 1;
+    }
+
+    .container5 {
+        width: 100%;
+        display: flex;
+        margin-top: 25%;
+        margin-bottom: 20%;
+    }
+
+    .container5 h4 {
+        font-size: 3.3rem;
+        font-weight: bolder;
+        margin: 4% 25%;
+        font-family: 'Mulish', sans-serif;
+    }
+
+    .container5 p {
+        font-size: 1.4rem;
+        width: 95%;
+        margin: 8% 20%;
+        line-height: 1.5;
+        font-family: 'Mulish', sans-serif;
+        font-weight: bold;
+        position: relative;
+        z-index: 1;
+    }
+
+    .africaico img {
+        width: 80%;
+        opacity: 60%;
+    }
+
+    footer {
+       
+        background-color: #C6AC8F;
+        padding: 5% 0 5%;
+        font-family: 'Mulish', sans-serif;
+        display: flex;
+        margin: 0 auto;
+        
+    }
+
+    .hello {
+        margin-left: 2%;
+    }
+
+    .info nav, .info h6{
+       display: flex;
+       margin-left: 10%;
+    }
+
+    footer nav a {
+        text-decoration: none;
+        color: black;
+    }
+
+ .copyright {
+     width: 4%;
+     height: 1.3vh;
+ }  
+ 
+ .copy {
+     display: flex;
+     margin-left: 20%;
+     
+ }
+
+@media(max-width: 1000px){
+
+    header {
+        font-size: 1.1rem;
+    }
+    /*.navbar {
+        margin: auto 0% auto 30%;
+    }
+
+    .navbar nav a {
+        margin: auto 1% auto 7%;
+    }*/
+
+    .img1 {
+        height: 80vh;
+    }
+
+    .container1 h1 {
+        top: 670;
+        left: 30;
+    }
+    .container1 h2 {
+        width: 40%;
+        top: 430;
+    }
+    .container2 {
+        margin-top: 60%;
+    }
+    .container3 h2 {
+        width: 40%;
+    }
+    .bkimg {
+        height: 40vh;
+    }
+    .copyright {
+        height: 32%;
+    }
+}
+
+@media(max-width: 800px){
+    .navbar {
+        margin: auto 0 auto 20%;
+    }
+
+    .navbar nav a {
+        margin: auto 1% auto 4%;
+    }
+    .img1 {
+        height: 50vh;
+    }
+    .container1 h1 {
+        top: 530;
+        font-size: 3.5rem;
+        
+    }
+    .container1 h2 {
+        top: 290;
+        left: -6;
+        width: 45%;
+    }
+    .container3 h2 {
+        font-size: 2.7rem;
+        top: 150;
+    }
+    .intropars p {
+        font-size: 1rem;
+    }
+    .bkimg {
+        margin-top: -63%;
+        height: 35vh;
+    }
+    .container5 p {
+        font-size: 1rem;
+        width: 120%;
+    }
+}
+
+@media(max-width: 500px){
+    .navbar nav a {
+        margin: auto 1% auto 2%;
+        font-size: 1.2rem;
+    }
+    .navbar {
+        margin: auto 1% auto 2%;
+    }
+    .img1 {
+        height: 40vh;
+    }
+    .container1 h1 {
+        top: 400;
+        font-size: 2.5rem;
+    }
+    .container1 h2 {
+        top: 160;
+    }
+    .container2 {
+        margin-bottom: -20%;
+    }
+    .container3 h2, span {
+        font-size: 1.6rem;
+        width: 40%;
+        top: 100;
+    }
+    .bkimg {
+        margin-top: -68%;
+        height: 25vh;
+    }
+    .container4 h5 {
+        font-size: 1rem;
+    }
+
+    footer {
+        font-size: .6rem;
+    }
+
+    .info {
+        margin-left: 13%;
+       
+    }
+
+    .info nav {
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+
+@media(max-width: 400px){
+    .navbar nav a {
+        margin: auto 1% auto .5%;
+        font-size: 1rem;
+    }
+    .navbar {
+        margin: auto 1% auto .5%;
+    }
+    .login {
+        font-size: 1rem;
+        margin-top: 2%;
+    }
+    .img1 {
+        height: 30vh;
+    }
+    .container1 h1 {
+        top: 320;
+        font-size: 1.6rem;
+    }
+    .container1 h2 {
+        top: 90;
+        left: -20;
+        font-size: .4rem;
+    }
+    .container2 {
+        margin-top: -10%;
+        font-size: 1rem;
+    }
+    .container3 h2, span {
+        font-size: 1.2rem;
+        top: 80;
+    }
+    .bkimg {
+        margin-top: -87%;
+        height: 20vh;
+    }
+}
