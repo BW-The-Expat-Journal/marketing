@@ -319,24 +319,32 @@
 }
 
 @media(max-width: 800px){
+
+    .header {
+        font-size: .2rem;
+    }
     .navbar {
-        margin: auto 0 auto 20%;
+        margin: auto 0 auto 29%;
     }
 
     .navbar nav a {
         margin: auto 1% auto 4%;
     }
+
+    .login {
+        border-left: 2px solid;
+    }
     .img1 {
-        height: 50vh;
+        height: 80vh;
     }
     .container1 h1 {
-        top: 530;
+        top: 510;
         font-size: 3.5rem;
         
     }
     .container1 h2 {
-        top: 290;
-        left: -6;
+        top: 265;
+        left: -12;
         width: 45%;
     }
     .container3 h2 {
@@ -348,7 +356,7 @@
     }
     .bkimg {
         margin-top: -63%;
-        height: 35vh;
+        height: 45vh;
     }
     .container5 p {
         font-size: 1rem;
@@ -357,6 +365,10 @@
 }
 
 @media(max-width: 500px){
+
+    header {
+        font-size: .05rem;
+    }
     .navbar nav a {
         margin: auto 1% auto 2%;
         font-size: 1.2rem;
@@ -365,14 +377,16 @@
         margin: auto 1% auto 2%;
     }
     .img1 {
-        height: 40vh;
+        height: 50vh;
     }
     .container1 h1 {
-        top: 400;
-        font-size: 2.5rem;
+        top: 330;
+        left: 50;
+        font-size: 2rem;
     }
     .container1 h2 {
-        top: 160;
+        font-size: .5rem;
+        top: 100;
     }
     .container2 {
         margin-bottom: -20%;
@@ -422,13 +436,13 @@
         height: 30vh;
     }
     .container1 h1 {
-        top: 320;
-        font-size: 1.6rem;
+        top: 190;
+        font-size: 1.4rem;
     }
     .container1 h2 {
-        top: 90;
+        top: -50;
         left: -20;
-        font-size: .4rem;
+        font-size: .04rem;
     }
     .container2 {
         margin-top: -10%;
